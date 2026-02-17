@@ -1,0 +1,40 @@
+{
+  "kind": "build_request",
+  "title": "Update About Me experience to 8+ years",
+  "projectName": "Neon Android Portfolio",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-18",
+      "text": "Update the About Me section text to reflect \"8+ years\" of experience by replacing the current \"6+ years\" wording in frontend/src/components/portfolio/AboutSection.tsx.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "recent-messages"
+        ],
+        "quotes": [
+          "Change experience in about me with 8+ years"
+        ]
+      },
+      "acceptanceCriteria": [
+        "In frontend/src/components/portfolio/AboutSection.tsx, the first paragraph under \"About Me\" says \"8+ years\" (not \"6+ years\").",
+        "No other About Me wording, layout, styles, or animations are changed aside from the experience number update.",
+        "The About section renders successfully with no TypeScript/React build errors."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit any files under frontend/src/components/ui (Shadcn components); compose them only.",
+    "Do not modify frontend immutable hook/bootstrap files listed in SYSTEM_CONTEXT (e.g., frontend/src/main.tsx, frontend/src/hooks/useActor.ts, frontend/src/hooks/useInternetIdentity.ts).",
+    "Keep changes limited to the About section copy update; do not introduce backend dependencies."
+  ],
+  "nonGoals": [
+    "Changing the Hero section experience label (already updated elsewhere).",
+    "Adding new sections, navigation items, or redesigning the About section layout.",
+    "Any backend changes or persistence for portfolio content."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

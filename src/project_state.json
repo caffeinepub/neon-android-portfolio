@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 9,
+  "summary": "Futuristic cyberpunk-inspired portfolio website for Senior Android Developer Mitul Patel, built as a responsive dark-mode HTML/CSS/JS site with neon/glassmorphism styling, animated sections, and interactive UI elements.",
+  "architectural_notes": [
+    "Output as complete responsive HTML + CSS + modern JavaScript (mobile-friendly, clean structure)",
+    "Design system: dark mode base with neon accents (electric blue/purple/cyan gradients), glassmorphism cards, glowing borders, bold tech typography",
+    "Interactions/animation: smooth scroll, subtle animations/micro-interactions, hover effects, particle/floating shapes background, animated stats counter, glowing form fields",
+    "Support user-provided images for header/profile; crop/resize/compress for responsive web and include as static asset.",
+    "Update displayed experience value in Hero section to “8+ Years”.",
+    "Update Contact section details: email md.ghoda@gmail.com, phone +91 9408861420, LinkedIn URL https://www.linkedin.com/in/mitulpatel1991, GitHub URL https://github.com/mitulghoda."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-single-page-fully-responsive-portfolio-website-in-the-existing-react-typescript-frontend-that-matches-a-futuristic-cyberpunk-inspired-dark-theme-with-neon-accents-electric-blue-purple-cyan-gradients-including-glassmorphism-surfaces-glowing-borders-bold-tech-style-typography-and-consistent-spacing-layout-across-all-sections",
+      "title": "Create a single-page, fully responsive portfolio website in the existing React + TypeScript frontend that matches a futuristic, cyberpunk-inspired dark theme with neon accents (electric blue, purple, cyan gradients), including glassmorphism surfaces, glowing borders, bold tech-style typography, and consistent spacing/layout across all sections.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-hero-section-that-prominently-displays-name-mitul-patel-title-senior-android-developer-experience-6-years-location-ahmedabad-india-and-includes-an-animated-call-to-action-button-set-for-download-resume-and-a-second-cta-for-contact-me-plus-animated-android-inspired-visuals",
+      "title": "Implement a Hero section that prominently displays: Name (Mitul Patel), Title (Senior Android Developer), Experience (6+ Years), Location (Ahmedabad, India), and includes an animated call-to-action button set for “Download Resume” and a second CTA for “Contact Me”, plus animated Android-inspired visuals.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-an-about-section-containing-the-provided-summary-text-and-present-it-in-a-glassmorphism-card-style-with-subtle-scroll-in-animation",
+      "title": "Add an About section containing the provided summary text and present it in a glassmorphism card style with subtle scroll-in animation.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-technical-skills-section-that-showcases-all-provided-skills-using-animated-skill-bars-and-or-glowing-tech-cards-with-hover-tap-micro-interactions-and-staggered-entrance-animations",
+      "title": "Create a Technical Skills section that showcases all provided skills using animated skill bars and/or glowing tech cards, with hover/tap micro-interactions and staggered entrance animations.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-experience-section-as-a-futuristic-vertical-timeline-with-a-glowing-line-and-nodes-containing-the-three-roles-and-dates-exactly-as-provided",
+      "title": "Create an Experience section as a futuristic vertical timeline with a glowing line and nodes, containing the three roles and dates exactly as provided.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-projects-section-with-interactive-project-cards-hover-effects-glow-slight-tilt-lift-for-tree-garden-100k-downloads-social-duels-100k-downloads-ice-park-10k-downloads-givvy-bird-100k-downloads-givvy-videos-5m-downloads-frekis-ble-based-app-each-card-must-include-a-short-description-role-contributions-tech-used-and-a-highlighted-download-stats-element",
+      "title": "Create a Projects section with interactive project cards (hover effects, glow, slight tilt/lift) for: Tree Garden (100K+ downloads), Social Duels (100K+ downloads), Ice Park (10K+ downloads), Givvy Bird (100K+ downloads), Givvy Videos (5M+ downloads), Frekis (BLE-based app). Each card must include: a short description, role & contributions, tech used, and a highlighted download stats element.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-animated-background-effects-that-match-the-cyberpunk-theme-including-floating-geometric-shapes-and-particle-effects-ensuring-performance-is-acceptable-on-mobile-devices",
+      "title": "Add animated background effects that match the cyberpunk theme, including floating geometric shapes and particle effects, ensuring performance is acceptable on mobile devices.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-smooth-scrolling-navigation-between-sections-and-section-reveal-animations-micro-interactions-across-the-page-buttons-cards-inputs-keeping-animations-subtle-and-consistent",
+      "title": "Implement smooth scrolling navigation between sections and section reveal animations/micro-interactions across the page (buttons, cards, inputs), keeping animations subtle and consistent.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-an-animated-statistics-counter-section-featuring-at-minimum-30-apps-developed-with-a-neon-glow-presentation-and-count-up-animation-when-scrolled-into-view",
+      "title": "Add an Animated Statistics Counter section featuring at minimum “30+ Apps Developed” with a neon/glow presentation and count-up animation when scrolled into view.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-section-with-glowing-input-fields-focus-glow-glassmorphism-styling-and-include-social-media-icon-buttons-with-hover-glow-effects-provide-a-functional-contact-action-e-g-a-mailto-link-without-requiring-external-services",
+      "title": "Create a Contact section with glowing input fields (focus glow, glassmorphism styling) and include social media icon buttons with hover glow effects. Provide a functional contact action (e.g., a mailto link) without requiring external services.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-and-include-required-static-visual-assets-for-the-cyberpunk-portfolio-android-inspired-hero-graphic-and-subtle-geometric-background-shapes-and-render-them-from-the-frontend-as-static-assets-under-frontend-public-assets-generated",
+      "title": "Generate and include required static visual assets for the cyberpunk portfolio (Android-inspired hero graphic and subtle geometric background shapes) and render them from the frontend as static assets under frontend/public/assets/generated.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-a-square-face-focused-profile-image-crop-from-the-uploaded-photo-chatgpt-image-jan-20-2026-07-58-51-pm-png-and-add-it-to-the-frontend-as-a-static-asset-under-frontend-public-assets-generated",
+      "title": "Generate a square, face-focused profile image crop from the uploaded photo \"ChatGPT Image Jan 20, 2026, 07_58_51 PM.png\" and add it to the frontend as a static asset under frontend/public/assets/generated.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-set-the-uploaded-image-chatgpt-image-feb-13-2026-11-28-35-am-png-as-the-hero-header-image-by-optimizing-it-for-web-use-adding-it-under-frontend-public-assets-generated-and-updating-the-hero-visual-in-frontend-src-components-portfolio-herosection-tsx-to-render-this-new-header-image-instead-of-the-current-android-hero-image",
+      "title": "Set the uploaded image \"ChatGPT Image Feb 13, 2026, 11_28_35 AM.png\" as the hero header image by optimizing it for web use, adding it under frontend/public/assets/generated, and updating the hero visual in frontend/src/components/portfolio/HeroSection.tsx to render this new header image instead of the current android-hero image.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-hero-section-experience-label-to-display-8-years-of-experience-instead-of-6-years-of-experience",
+      "title": "Update the Hero section experience label to display \"8+ Years of Experience\" instead of \"6+ Years of Experience\".",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-to-use-the-email-address-md-ghoda-gmail-com-for-1-the-displayed-contact-email-in-the-contact-information-card-and-2-the-mailto-recipient-used-when-submitting-the-contact-form",
+      "title": "Update the Contact section to use the email address \"md.ghoda@gmail.com\" for (1) the displayed contact email in the Contact Information card and (2) the mailto recipient used when submitting the contact form.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-contact-phone-number-91-9408861420-to-the-contact-information-card-in-the-contact-section-alongside-the-existing-email-and-location",
+      "title": "Add the contact phone number \"+91 9408861420\" to the Contact Information card in the Contact section (alongside the existing email and location).",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-social-links-so-that-github-points-to-https-github-com-mitulghoda-and-linkedin-points-to-https-www-linkedin-com-in-mitulpatel1991-if-any-social-icon-remains-without-a-real-url-remove-it-from-the-rendered-social-links-list",
+      "title": "Update the Contact section social links so that GitHub points to \"https://github.com/mitulghoda\" and LinkedIn points to \"https://www.linkedin.com/in/mitulpatel1991\". If any social icon remains without a real URL, remove it from the rendered social links list.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-about-me-section-text-to-reflect-8-years-of-experience-by-replacing-the-current-6-years-wording-in-frontend-src-components-portfolio-aboutsection-tsx",
+      "title": "Update the About Me section text to reflect \"8+ years\" of experience by replacing the current \"6+ years\" wording in frontend/src/components/portfolio/AboutSection.tsx.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create responsive cyberpunk high-tech portfolio site (HTML+CSS+JS) with hero/about/skills/experience timeline/projects/contact, neon glassmorphism styling, animations, particles, counters, and micro-interactions using provided developer details",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Use the user-provided image as the site header/hero header image (and support cropping/optimizing it for web use if needed)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Update the About Me/About section content to reflect “8+ years” experience (replace any previous experience value in the about text).",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Neon Android Portfolio",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

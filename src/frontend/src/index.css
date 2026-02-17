@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.625rem;
+        --background: 0.145 0 0;
+        --foreground: 0.985 0 0;
+        --card: 0.205 0 0;
+        --card-foreground: 0.985 0 0;
+        --popover: 0.269 0 0;
+        --popover-foreground: 0.985 0 0;
+        --primary: 0.922 0 0;
+        --primary-foreground: 0.205 0 0;
+        --secondary: 0.269 0 0;
+        --secondary-foreground: 0.985 0 0;
+        --muted: 0.269 0 0;
+        --muted-foreground: 0.708 0 0;
+        --accent: 0.371 0 0;
+        --accent-foreground: 0.985 0 0;
+        --destructive: 0.704 0.191 22.216;
+        --destructive-foreground: 0.205 0 0;
+        --border: 1 0 0 / 10%;
+        --input: 1 0 0 / 15%;
+        --ring: 0.556 0 0;
+        
+        /* Cyberpunk neon colors */
+        --neon-blue: 0.65 0.25 240;
+        --neon-purple: 0.60 0.28 290;
+        --neon-cyan: 0.75 0.20 200;
+        --neon-pink: 0.70 0.30 330;
+        
+        --chart-1: 0.488 0.243 264.376;
+        --chart-2: 0.696 0.17 162.48;
+        --chart-3: 0.769 0.188 70.08;
+        --chart-4: 0.627 0.265 303.9;
+        --chart-5: 0.645 0.246 16.439;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Orbitron', 'Rajdhani', 'Exo 2', sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+    }
+}
+
+@layer utilities {
+    .glass-panel {
+        background: oklch(0.20 0 0 / 0.4);
+        backdrop-filter: blur(12px);
+        border: 1px solid oklch(1 0 0 / 0.1);
+    }
+    
+    .neon-glow-blue {
+        box-shadow: 0 0 20px oklch(var(--neon-blue) / 0.5),
+                    0 0 40px oklch(var(--neon-blue) / 0.3),
+                    inset 0 0 20px oklch(var(--neon-blue) / 0.1);
+    }
+    
+    .neon-glow-purple {
+        box-shadow: 0 0 20px oklch(var(--neon-purple) / 0.5),
+                    0 0 40px oklch(var(--neon-purple) / 0.3),
+                    inset 0 0 20px oklch(var(--neon-purple) / 0.1);
+    }
+    
+    .neon-glow-cyan {
+        box-shadow: 0 0 20px oklch(var(--neon-cyan) / 0.5),
+                    0 0 40px oklch(var(--neon-cyan) / 0.3),
+                    inset 0 0 20px oklch(var(--neon-cyan) / 0.1);
+    }
+    
+    .neon-border-blue {
+        border: 1px solid oklch(var(--neon-blue) / 0.6);
+    }
+    
+    .neon-border-purple {
+        border: 1px solid oklch(var(--neon-purple) / 0.6);
+    }
+    
+    .neon-border-cyan {
+        border: 1px solid oklch(var(--neon-cyan) / 0.6);
+    }
+    
+    .neon-text-blue {
+        color: oklch(var(--neon-blue));
+        text-shadow: 0 0 10px oklch(var(--neon-blue) / 0.8);
+    }
+    
+    .neon-text-purple {
+        color: oklch(var(--neon-purple));
+        text-shadow: 0 0 10px oklch(var(--neon-purple) / 0.8);
+    }
+    
+    .neon-text-cyan {
+        color: oklch(var(--neon-cyan));
+        text-shadow: 0 0 10px oklch(var(--neon-cyan) / 0.8);
+    }
+    
+    .gradient-neon {
+        background: linear-gradient(135deg, 
+            oklch(var(--neon-blue)) 0%, 
+            oklch(var(--neon-purple)) 50%, 
+            oklch(var(--neon-cyan)) 100%);
+    }
+    
+    .text-gradient-neon {
+        background: linear-gradient(135deg, 
+            oklch(var(--neon-blue)) 0%, 
+            oklch(var(--neon-purple)) 50%, 
+            oklch(var(--neon-cyan)) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
+
+@layer components {
+    .btn-neon {
+        @apply relative overflow-hidden rounded-lg px-8 py-3 font-bold uppercase tracking-wider;
+        @apply transition-all duration-300 ease-out;
+        @apply neon-border-blue neon-glow-blue;
+        background: oklch(var(--neon-blue) / 0.1);
+    }
+    
+    .btn-neon:hover {
+        @apply scale-105;
+        background: oklch(var(--neon-blue) / 0.2);
+        box-shadow: 0 0 30px oklch(var(--neon-blue) / 0.7),
+                    0 0 60px oklch(var(--neon-blue) / 0.4),
+                    inset 0 0 30px oklch(var(--neon-blue) / 0.2);
+    }
+    
+    .btn-neon:active {
+        @apply scale-95;
+    }
+    
+    .input-glow:focus {
+        @apply neon-border-cyan neon-glow-cyan;
+        outline: none;
+    }
+    
+    @media (prefers-reduced-motion: reduce) {
+        * {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+        }
+    }
+}

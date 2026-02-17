@@ -1,0 +1,20 @@
+{
+  "frontend/src/App.tsx": "Main application component that composes all portfolio sections (Hero, About, Skills, Experience, Stats, Projects, Contact) with background effects and navigation in a single-page layout.",
+  "frontend/src/index.css": "Global styles with cyberpunk dark theme using OKLCH color system, custom neon color tokens (blue, purple, cyan), glassmorphism utilities, glow effects, and smooth animations with reduced-motion support.",
+  "frontend/tailwind.config.js": "Extended Tailwind configuration with neon color palette, custom glow shadows, cyberpunk-themed animations (float, pulse-glow, slide-in variants), and geometric font stack.",
+  "frontend/index.html": "HTML entry point with updated meta tags, page title for Mitul Patel's portfolio, and Google Fonts preload for Inter and Orbitron typefaces.",
+  "frontend/src/components/portfolio/TopNav.tsx": "Sticky navigation bar with smooth-scroll links to all sections, mobile hamburger menu, glassmorphism styling, and neon accent hover effects.",
+  "frontend/src/components/portfolio/HeroSection.tsx": "Hero section displaying Mitul Patel's name, title, 8+ years of experience, location with hero header image, floating decorative elements, and CTA buttons for resume download and contact.",
+  "frontend/src/components/portfolio/AboutSection.tsx": "About section with glassmorphism card containing developer summary text updated to show 8+ years of experience, neon purple border, and scroll-triggered reveal animation.",
+  "frontend/src/components/portfolio/SkillsSection.tsx": "Technical skills grid displaying 18 skills as interactive glowing cards with staggered entrance animations and hover micro-interactions.",
+  "frontend/src/components/portfolio/ExperienceTimelineSection.tsx": "Vertical timeline with glowing line and nodes showing three career positions with glassmorphism cards and scroll-triggered animations.",
+  "frontend/src/components/portfolio/StatsCounterSection.tsx": "Animated statistics display showing \"30+ Apps Developed\" with count-up animation triggered on scroll into view.",
+  "frontend/src/components/portfolio/ProjectsSection.tsx": "Grid of six project cards with download stats badges, descriptions, roles, tech stacks, and hover effects with neon glow.",
+  "frontend/src/components/portfolio/ContactSection.tsx": "Contact form with glowing input fields, contact information card displaying email (md.ghoda@gmail.com), phone (+91 9408861420), and location, social media icons for GitHub and LinkedIn with real URLs, mailto-based submission, and footer attribution.",
+  "frontend/src/components/portfolio/BackgroundEffects.tsx": "Non-interactive background layer with floating geometric shapes, noise texture overlay, and gradient orbs for cyberpunk atmosphere.",
+  "frontend/src/hooks/useInViewReveal.ts": "Custom hook using IntersectionObserver to trigger reveal animations when elements scroll into viewport.",
+  "frontend/src/hooks/useCountUpOnce.ts": "Custom hook for animating numeric count-up once when element becomes visible, with easing and reduced-motion support.",
+  "frontend/src/lib/scroll.ts": "Utility function for smooth scrolling to section anchors with offset adjustment for fixed navigation.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks (intentionally minimal as portfolio uses static data only).",
+  "frontend/public/assets/resume.pdf": "Placeholder PDF resume file for download functionality."
+}
